@@ -21,7 +21,7 @@ todos.push(addTask.todo)
 condition = addTask.addMore;
 console.log(todos);
 }
-
+// delete block
 let del = await inquirer.prompt([
     {
     name: 'delete',
