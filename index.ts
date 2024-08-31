@@ -13,7 +13,7 @@ while(condition)
     {
         name: 'addMore',
         type: 'confirm',
-        message: 'Do you want to add more?',
+        message: 'Do you want to add more??',
         default: "false"
     }
 ]);
@@ -21,12 +21,12 @@ todos.push(addTask.todo)
 condition = addTask.addMore;
 console.log(todos);
 }
-// delete block
+// delete block,
 let del = await inquirer.prompt([
     {
     name: 'delete',
     type: 'confirm',
-    message: 'Do you want to delete last one in the list?',
+    message: 'Do you want to delete last one in the list??',
     default: "false"
 }
 ]);
